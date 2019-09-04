@@ -1,0 +1,97 @@
+@import 'reset';
+@import 'variables';
+@import 'global';
+
+
+.card{
+  border-radius: 5px;
+  background: #fff;
+  max-width: 330px;
+  overflow: hidden;
+  border: 1px solid #f3f4f7;
+  font-size: 16px;
+  text-color: $text-color;
+
+  .card-header{
+    background: url('../img/bg.png') #000;
+    background-size: cover;
+    height: 100px;
+    
+    img{
+      display: block;
+      width: 100px;
+      height: 100px;
+      border:2px solid #fff;
+      border-radius: 100%;
+      margin: auto;
+      position: relative;
+      bottom: -50%;
+
+    }
+  }
+  
+  .intro-section{
+    padding: 25px;
+    padding-top: 75px;
+    text-align: center;
+
+    .name{
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .desg{
+      margin-bottom: 30px;
+    }
+  }
+
+  .project-section{
+    padding: 25px;
+    border-top: 2px solid #f3f4f7;
+    border-bottom: 2px solid #f3f4f7;
+    
+    h2{
+      font-weight: bold;
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+
+    .update-list{
+      margin: 0px;
+      padding: 0px;
+
+      li{
+        display: inline-block;
+        width: 32%;
+        h3{
+          font-weight: 300;
+          font-size: 16px;
+          margin-bottom: 15px;
+        }
+
+        p{
+          margin: 0;
+          padding: 0;
+          font-weight: bold;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .button-wrapper{
+    padding: 25px;
+    text-align: center;
+
+    button{
+      border: 0;
+      background: $button-color;
+      border-radius: 5px;
+      color: #fff;
+      padding: 15px 20px;
+      font-size: 16px;
+    }
+  }
+
+
+}

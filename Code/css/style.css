@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  color: #1f2e6d;
+  font-family: "Nunito Sans", sans-serif; }
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px; }
+
+.clear:after {
+  content: ' ';
+  display: table;
+  clear: both;
+  visibility: hidden; }
+
+.card {
+  border-radius: 5px;
+  background: #fff;
+  max-width: 330px;
+  overflow: hidden;
+  border: 1px solid #f3f4f7;
+  font-size: 16px;
+  text-color: #1f2e6d; }
+  .card .card-header {
+    background: url("../img/bg.png") #000;
+    background-size: cover;
+    height: 100px; }
+    .card .card-header img {
+      display: block;
+      width: 100px;
+      height: 100px;
+      border: 2px solid #fff;
+      border-radius: 100%;
+      margin: auto;
+      position: relative;
+      bottom: -50%; }
+  .card .intro-section {
+    padding: 25px;
+    padding-top: 75px;
+    text-align: center; }
+    .card .intro-section .name {
+      font-weight: bold;
+      margin-bottom: 15px; }
+    .card .intro-section .desg {
+      margin-bottom: 30px; }
+  .card .project-section {
+    padding: 25px;
+    border-top: 2px solid #f3f4f7;
+    border-bottom: 2px solid #f3f4f7; }
+    .card .project-section h2 {
+      font-weight: bold;
+      margin-bottom: 15px;
+      font-size: 16px; }
+    .card .project-section .update-list {
+      margin: 0px;
+      padding: 0px; }
+      .card .project-section .update-list li {
+        display: inline-block;
+        width: 32%; }
+        .card .project-section .update-list li h3 {
+          font-weight: 300;
+          font-size: 16px;
+          margin-bottom: 15px; }
+        .card .project-section .update-list li p {
+          margin: 0;
+          padding: 0;
+          font-weight: bold;
+          font-size: 18px; }
+  .card .button-wrapper {
+    padding: 25px;
+    text-align: center; }
+    .card .button-wrapper button {
+      border: 0;
+      background: #0044ff;
+      border-radius: 5px;
+      color: #fff;
+      padding: 15px 20px;
+      font-size: 16px; }
+
+/*# sourceMappingURL=style.css.map */
